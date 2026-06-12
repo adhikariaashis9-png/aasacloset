@@ -983,7 +983,7 @@
         document.querySelectorAll('.whatsapp-button').forEach(button => {
             button.addEventListener('click', function() {
                 const product = this.getAttribute('data-product');
-                const phone = "9779800000000"; // REPLACE WITH YOUR NUMBER
+                const phone = "+977 9844352456,+977 9769404177"; // REPLACE WITH YOUR NUMBER
                 const message = `Hello Aasa Closet! 👟\n\nI'm interested in:\n📦 Product: ${product}\n📏 Size: [Please specify size]\n🎨 Color: [If applicable]\n\nPlease let me know the price and availability.`;
                 const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
                 window.open(url, '_blank');
